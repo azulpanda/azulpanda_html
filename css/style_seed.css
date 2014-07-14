@@ -1,0 +1,61 @@
+html {
+	height:100%;
+	overflow:hidden;
+}
+
+body{
+	background-color: #1D9156;
+	overflow:hidden;
+	height:100%;
+}
+
+.bigbutton{
+	text-align: center;
+	width:660px;
+}
+
+#plant{
+	font-family:'Lato';
+	font-size:100px;
+	color:#7BD6A8;
+	margin:auto;
+	line-height: 0.9;
+	overflow:hidden;
+}
+
+.text_area{
+	display: none;
+	text-align: center;
+	width:80%;
+}
+
+#inst{
+	font-family:'Lato';
+	font-size:50px;
+	color:#032B16;
+	margin:auto;
+	line-height: 1.2;
+}
+
+.seed_name_area{
+	margin:auto;
+	padding-bottom:5px;
+	width:240px;
+}
+
+.seed_type_area{
+	margin:auto;
+	padding-top:5px;
+}
+
+.seed_type_area>.btn{
+	width:80px;
+}
+
+.save_area{
+	text-align:right;
+}
+
+hr{
+	margin:10px auto;
+}

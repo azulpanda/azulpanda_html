@@ -1,0 +1,68 @@
+.info{
+	width:850px;
+	margin:0 auto;
+	border-bottom-style:solid;
+	font-family:'Noto Serif', serif;
+}
+
+.contents{
+	width:850px;
+	height:400px;
+	margin:0 auto;
+	font-family:'Ubuntu Condensed', Serif;
+	font-size:20px;
+	text-align:center;
+}
+
+.profile{
+	width:550px;
+	text-align:left;
+	float:right;
+	font-size:17px;
+}
+
+.title{
+	font-family:'Noto Serif', serif;
+	font-size:60px;
+	text-align:center;
+}
+
+.image{
+	width: 650px;
+	text-align: center;
+}
+
+iframe{
+	border:0;
+}
+
+.portrait{
+	width:300px;
+	text-align:center;
+	float:left;
+	font-size:15px;
+}
+
+.pictures{
+	text-align:center;
+	width:850px;
+	font-size:15px;
+	margin:0 auto;
+	font-family:'Ubuntu Condensed';
+}
+
+.pictures>img{
+	width:200px;
+}
+
+.item{
+	width: 500px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.carousel-inner{
+	margin:0 auto;
+	width:500px;
+}
+
