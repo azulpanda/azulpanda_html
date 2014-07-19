@@ -12,6 +12,7 @@ body{
 .bigbutton{
 	text-align: center;
 	width:660px;
+	margin:auto;
 }
 
 #plant{
@@ -23,10 +24,17 @@ body{
 	overflow:hidden;
 }
 
+#screen{
+	height:100%;
+	width:100%;
+}
+
+
 .text_area{
 	display: none;
 	text-align: center;
 	width:80%;
+	margin:auto;
 }
 
 #inst{
