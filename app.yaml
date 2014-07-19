@@ -2,29 +2,14 @@ application: grizzlyraccoon
 version: 1
 runtime: python27
 api_version: 1
-threadsafe: true
+threadsafe: yes
 
 handlers:
-- url: /
-  static_files: azulpanda.html
-  upload: azulpanda.html
-  mime_type: text/html
+- url: .*
+  script: main.app
 
-- url: /seed.html
-  static_files: seed.html
-  upload: seed.html
-  mime_type: text/html
-
-- url: /fantastic.html
-  static_files: fantastic.html
-  upload: fantastic.html
-  mime_type: text/html
-
-- url: /maps.html
-  static_files: maps.html
-  upload: maps.html
-  mime_type: text/html
-
-- url: /(.*)
-  static_files: \1
-  upload: (.*)
+libraries:
+- name: jinja2
+  version: "2.6"
+- name: markupsafe
+  version: "0.15"
