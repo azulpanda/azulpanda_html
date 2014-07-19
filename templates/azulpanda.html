@@ -30,7 +30,7 @@
 	</div>
 	<div class="contents">
 		<div class="portrait">
-			<img src="img/adsf.jpg" alt ="King Dae Hong" style="width:300px"/>
+			<img src="{{ url_for('static', filename = 'img/adsf.jpg') }}" alt ="King Dae Hong" style="width:300px"/>
 			<p>Meet the King of Wonderland</p>
 		</div>
 		<div class="profile">
@@ -43,7 +43,7 @@
 			Motto: "Why not procrastinate?"<br>
 			e-mail: azulpanda@snu.ac.kr<br>
 			<br>
-			Plant a seed: <a href="seed.html">Click to Find Out</a><br>
+			Plant a seed: <a href="seed">Click to Find Out</a><br>
 			<br>
 			<br>
 			<br>
@@ -58,7 +58,7 @@
 	<div class="pictures">
 		<br><br><br>
 		<h3>The kind of things I do</h3><br>
-		<img src="img/1.jpg" alt="1"/>    <img src="img/2.jpg" alt="2"/>    <img src="img/3.jpg" alt="3"/>    <img src="img/4.jpg" alt="4"/>
+		<img src="{{ url_for('static', filename = 'img/1.jpg') }}" alt="1"/>    <img src="{{ url_for('static', filename = 'img/2.jpg') }}" alt="2"/>    <img src="{{ url_for('static', filename = 'img/3.jpg') }}" alt="3"/>    <img src="{{ url_for('static', filename = 'img/4.jpg') }}" alt="4"/>
 	</div>
 	<br><br>
 	<div style="width:850px; text-align:center; margin:0 auto;">

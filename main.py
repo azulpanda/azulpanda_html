@@ -7,10 +7,14 @@ app.config['DEBUG'] = True
 
 
 @app.route('/')
-def hello():
-    """Return a friendly HTTP greeting."""
+def azulpanda():
+    """Return the main page"""
     return render_template("azulpanda.html")
 
+@app.route('/seed')
+def seed():
+	"""Return the seed page"""
+	return render_template("seed.html")
 
 @app.errorhandler(404)
 def page_not_found(e):
